@@ -4,10 +4,10 @@ Provides a package to be used by the zig package manager for C++ programs.
 
 ## Status
 
-| Refname   | Catch2 version | Zig `0.16.x` | Zig `0.15.x` | Zig `0.14.x` | Zig `0.13.x` | Zig `0.12.x` |
-|:----------|:---------------|:------------:|:------------:|:------------:|:------------:|:------------:|
-| `3.14.0`  | `v3.14.0`      | ✔            | ✔            | ✅           | ❌           | ❌           |
-| `3.8.0`   | `v3.8.0`       | ❌           | ❌           | ❌           | ✅           | ✅           |
+| Refname  | Catch2 version | Zig `0.17-dev` | Zig `0.16.x` | Zig `0.15.x` | Zig `0.14.x` | Zig `0.13.x` | Zig `0.12.x` |
+|:---------|:---------------|:---------------|:------------:|:------------:|:------------:|:------------:|:------------:|
+| `3.15.0` | `v3.15.0`      | ✅             | ✔            | ✔            | ✅           | ❌           | ❌           |
+| `3.8.0`  | `v3.8.0`       | ❌             | ❌           | ❌           | ❌           | ✅           | ✅           |
 
 ✔ means that that the package is compatible but that Catch2's own tests fail because of [a regression of LLVM 20](https://github.com/llvm/llvm-project/issues/140519).
 The error occurs when using `TEMPLATE_PRODUCT_TEST_CASE`: [Build failure with clang++ 20](https://github.com/catchorg/Catch2/issues/2991). If you don't use this macro you should be fine.
