@@ -1,12 +1,12 @@
 .{
     .name = .catch2,
-    .version = "3.14.0",
+    .version = "3.15.0",
     .fingerprint = 0x50cf7037cefab352,
     .minimum_zig_version = "0.14.0",
     .dependencies = .{
         .upstream = .{
-            .url = "git+https://github.com/catchorg/Catch2?ref=v3.14.0#b670de4fe12ac7c5e858b7de3a14fb4bd18c760e",
-            .hash = "N-V-__8AAIDlhwCf8y5N902zIhG50WmsFubLw2EyIU27S09r",
+            .url = "git+https://github.com/catchorg/Catch2?ref=v3.15.0#6ee0826dcae55ed1e06b2c5701981221e979e1e6",
+            .hash = "N-V-__8AADl2iABKnc0tHblZDnZzS89w_gmrTsemgDQIYOV7",
         },
     },
     .paths = .{
