@@ -12,6 +12,8 @@
     .paths = .{
         "build.zig",
         "build.zig.zon",
+        "generate.zig",
+        "generated.zig",
         "LICENSE",
         "README.md",
     },
